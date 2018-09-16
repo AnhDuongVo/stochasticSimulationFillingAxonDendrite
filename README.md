@@ -1,7 +1,7 @@
 # StochasticSimulationFillingAxonDendrite
 
 stochasticSimulationProteinsInDendriteAxon.py
-- simulates stochastically filling of proteins in axons and dendrites (model with 50 compartments)
+- simulates stochastically the filling process of proteins in axons and dendrites (model with 50 compartments)
 - to set diffusion rates, lambda_alpha, lambda_beta go to line 236 and 237
 - to set the number of reactions and maximum time go to line 242 and 243
 - to set alpha_0 and beta_0 go to line 244 and 245
