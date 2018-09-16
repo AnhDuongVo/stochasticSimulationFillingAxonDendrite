@@ -1,4 +1,4 @@
-# StochasticSimulationFillingAxonDendrite
+# stochasticSimulationFillingAxonDendrite
 
 stochasticSimulationProteinsInDendriteAxon.py
 - simulates stochastically the filling process of proteins in axons and dendrites (model with 50 compartments)
