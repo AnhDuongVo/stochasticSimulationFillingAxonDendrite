@@ -1,4 +1,4 @@
-# this programm extracts the data from the txt files (number of molecules and time) and plot it again
+# this programm extracts the data from the txt files (number of molecules and time) and plots it again
 
 import numpy as np
 from scipy.special import factorial
