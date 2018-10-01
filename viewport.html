@@ -2,7 +2,6 @@
 <html>
   <head>
   </head>
-  // register function v() to the event onload, when body is loaded --> execute the function
   <body onload="v()">
     Hello World! Spot the viewport!"
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus magna quam, sed interdum ipsum dictum at. 
@@ -17,12 +16,14 @@
     Aenean mollis augue ultrices tortor vestibulum sollicitudin. Fusce sed ante eu urna interdum egestas. Pellentesque porttitor porttitor dolor, ut lobortis eros. Proin scelerisque blandit ante, eu blandit dolor tristique quis. Morbi ut tortor pharetra, convallis lectus at, aliquet leo. Cras pulvinar tortor tortor.
   </body>
   
-<script> 
-  function v(){ // define a function
-    var w = document.documentElement.clientWidth; // give the width of the entire document to the variable w
-    var h = document.documentElement.clientHeight;
-    alert("Your width is "+w+" and you height is "+h); // return the value
-  }
-</script>
+  <script>
+    function v(){
+        var w = document.documentElement.clientWidth;
+        var h = document.documentElement.clientHeight;
+        alert("Your viewport is  is "+w+" x "+h);
+      }
+  </script>
+  
+  
   
 </html>
